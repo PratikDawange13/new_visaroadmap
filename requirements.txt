@@ -1,0 +1,4 @@
+streamlit
+requests
+markdown_pdf
+PyPDF2
