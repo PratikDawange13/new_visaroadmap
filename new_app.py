@@ -90,7 +90,8 @@ def call_visa_roadmap_api(text,roadmap_type,additional_information):
     Returns:
         dict: API response with roadmap data
     """
-    url = "https://langgraph-visaroadmap-82730143568.us-central1.run.app/generate_roadmap"
+    url = "https://visa-road-map-newapp-82730143568.us-central1.run.app/generate_roadmap"
+    # url = "http://127.0.0.1:8000/generate_roadmap"
     
     try:
         # Prepare the payload - make sure text is in single line
