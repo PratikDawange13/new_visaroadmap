@@ -74,7 +74,7 @@ def call_visa_roadmap_api(text, roadmap_type, additional_information):
         dict: API response with roadmap data
     """
     url = "https://latestvisaroadmap-247572588539.us-central1.run.app/generate_roadmap"
-    #url = "http://127.0.0.1:8000/generate_roadmap"
+    # url = "http://127.0.0.1:8000/generate_roadmap"
     try:
         payload = {
             "questionnaire": text,
